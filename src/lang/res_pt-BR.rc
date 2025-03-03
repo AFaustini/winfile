@@ -74,7 +74,7 @@ BEGIN
     MENUITEM    "D&ividir",               IDM_SPLIT
     MENUITEM    SEPARATOR
     MENUITEM    "&Nome",                IDM_VNAME
-    MENUITEM    "&Todos os Detalhes dos Arquivos",    IDM_VDETAILS,   CHECKED
+    MENUITEM    "&Todos os Detalhes do Arquivo",    IDM_VDETAILS,   CHECKED
     MENUITEM    "Deta&lhes Parciais...",  IDM_VOTHER
     MENUITEM    SEPARATOR
     MENUITEM "Ordenar por No&me",   IDM_BYNAME
