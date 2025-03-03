@@ -19,10 +19,10 @@ BEGIN
     MENUITEM    "&Copiar...\tF8",     IDM_COPY
     MENUITEM    "S&ymlink...\tF11", IDM_SYMLINK
     MENUITEM    "Hardlin&k...\tShift+F11", IDM_HARDLINK
-    MENUITEM    "Copiar para a Clip&board\tCtrl+C", IDM_COPYTOarea de transferência
-    MENUITEM    "Cortar para a area de transferência\tCtrl+X", IDM_CUTTOarea de transferência
-    MENUITEM    "&Colar\tCtrl+V",   IDM_PASTE
-    MENUITEM    "Ex&cluir...\tDel",  IDM_DELETE
+    MENUITEM    "Copiar para a Clip&board\tCtrl+C", IDM_COPYTOCLIPBOARD
+    MENUITEM    "Cortar para a area de transferência\tCtrl+X", IDM_CUTTOCLIPBOARD
+    MENUITEM    "Co&lar\tCtrl+V",   IDM_PASTE
+    MENUITEM    "E&xcluir...\tDel",  IDM_DELETE
     MENUITEM    "M&udar o nome...\tF2",   IDM_RENAME
     MENUITEM    "Propri&edades...\tAlt+Enter",IDM_ATTRIBS
     MENUITEM    SEPARATOR
@@ -65,7 +65,7 @@ BEGIN
     MENUITEM    SEPARATOR
     MENUITEM    "&Indicar Ramos Expansíveis",    IDM_ADDPLUSES
     END
-    POPUP       "V&er"
+    POPUP       "V&isualizar"
     BEGIN
     MENUITEM    "Á&rvore e Diretório",  IDM_BOTH
     MENUITEM    "&Apenas Árvore",           IDM_TREEONLY
@@ -98,7 +98,7 @@ BEGIN
     MENUITEM    SEPARATOR
     MENUITEM    "Executar &Minimizado",     IDM_MINONRUN
     MENUITEM    "Criar &Index 'Ir para' ao Ligar", IDM_INDEXONLAUNCH
-    MENUITEM    "&Salvar Definições ao Sair",   IDM_SAVESETTINGS
+    MENUITEM    "&Salvar Configurações ao Sair",   IDM_SAVESETTINGS
     MENUITEM    SEPARATOR
     MENUITEM    "Salvar &Definições Agora",       IDM_SAVENOW
     END
@@ -117,7 +117,7 @@ BEGIN
     MENUITEM    "D&ispor Ícones",       IDM_ARRANGE
     MENUITEM    "&Atualizar\tF5",         IDM_REFRESH
     END
-    POPUP       "&Ajuda"
+    POPUP       "&?Ajuda"
     BEGIN
     MENUITEM    "&Conteúdos",                IDM_HELPINDEX
     MENUITEM    "&Procurar por Ajuda em...",   IDM_HELPKEYS
@@ -546,8 +546,8 @@ BEGIN
     MH_MYITEMS+IDM_EDIT,        "Editar o item selecionado usando o notepad.exe"
     MH_MYITEMS+IDM_MOVE,        "Move o item selecionado"
     MH_MYITEMS+IDM_COPY,        "Copia Arquivos e Diretórios"
-    MH_MYITEMS+IDM_COPYTOarea de transferência, "Copia um ou mais Arquivos para a area de transferência"
-    MH_MYITEMS+IDM_CUTTOarea de transferência, "Corta um ou mais Arquivos para a area de transferência"
+    MH_MYITEMS+IDM_COPYTOCLIPBOARD, "Copia um ou mais Arquivos para a area de transferência"
+    MH_MYITEMS+IDM_CUTTOCLIPBOARD, "Corta um ou mais Arquivos para a area de transferência"
     MH_MYITEMS+IDM_PASTE,       "Cola Arquivo da area de transferência para o Diretório atual"
     MH_MYITEMS+IDM_COMPRESS,    "Comprime um Arquivo ou Diretório"
     MH_MYITEMS+IDM_UNCOMPRESS,  "Descomprime um Arquivo ou Diretório"
