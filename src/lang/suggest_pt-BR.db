@@ -43,7 +43,7 @@ SUGGEST( 4, DE_ROOTDIR, 0L, \
 SUGGEST( 5, DE_DESTSUBTREE, 0L, \
  "O diretório de destino é um subdiretório da fonte." )
 SUGGEST( 6, DE_WINDOWSFILE, 0L, \
- "arquivo em uso pelo Windows." )
+ "Arquivo em uso pelo Windows." )
 SUGGEST( 7, DE_MANYDEST, 0L, \
  "Especifique apenas um arquivo ou diretório no campo 'Para'. Ou, se quiser especificar um grupo de arquivos, use wildcards (por exemplo, *.TXT)." )
 SUGGEST( 8, DE_RENAMREPLACE, 0L, \
